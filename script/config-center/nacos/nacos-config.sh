@@ -60,7 +60,7 @@ if [ -z ${password} ]; then
     password=""
 fi
 
-nacosAddr=$host:$port
+nacosAddr=$host
 contentType="content-type:application/json;charset=UTF-8"
 
 echo "set nacosAddr=$nacosAddr"
